@@ -1,0 +1,381 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.width-barrier{
+    margin: 0 auto;
+    max-width: 1250px;
+}
+
+.col-flex{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-page-content{
+    background-color: #e0e0e0;
+}
+
+header.col-flex {
+    justify-content: center;
+    margin-top: 20px;
+    height: 89px;
+    background-color: #000000;
+}
+
+nav > a {
+    padding: 38.5px 25px 34px;
+    color: #e0e0e0;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav > a:hover {
+    background-color: #ff3f40;
+}
+
+.intro {
+    padding: 108px 0 123px;
+}
+
+.intro-wrapper {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin-right: 68px;
+}
+
+.intro-wrapper h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.intro-text {
+    margin-bottom: 58px;
+    opacity: 0.7;
+}
+
+.contact-link {
+    color: #ffffff;
+    display: inline-block;
+    background-color: #ff3f40;
+    padding: 22px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.intro-image {
+    display: inline-block;
+    width: 551px;
+    height: 356px;
+    background: url(../img/Vedio-Icon.png), url(../img/1.jpg);
+    background-size: auto, 551px 356px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.intro-wrapper h2 {
+    margin: 0;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.learn-more {
+    color: #ff3f40;
+    border: 2px solid #ff3f40;
+    display: inline-block;
+    padding: 22px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.intro-wrapper h3 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.information-card {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.information-card p {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.information-card:nth-of-type(2n+2) {
+    margin-left: 20px;
+}
+
+hr {
+    opacity: 0.6;
+    background-color: #e0e0e0;
+    border: 1px solid #e0e0e0;
+}
+
+hr.red-line {
+    width: 120px;
+    opacity: 1;
+    background-color: #ff3f40;
+    border: 1px solid #ff3f40;
+}
+
+.feature-products {
+    justify-content: center;
+}
+
+.feature-products-wrapper {
+    padding-top: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.feature-products-nav {
+    margin-top: 50px;
+}
+
+.feature-products-nav > a {
+    padding: 38.5px 25px 34px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.feature-products-colection div {
+    margin: 5px;
+    height: 298px;
+    width: 298px;
+    background-color: #eed3d3;
+    display: inline-block;
+}
+
+.feature-products-colection {
+    padding: 20px 0;
+}
+
+.our-team {
+    justify-self: left;
+}
+
+.our-team-wrapper {
+    margin: 50px 0;
+}
+
+.our-team-wrapper .red-line {
+    margin: 30px 0;
+}
+
+div.person {
+    margin: 0;
+    height: 380px;
+    width: 250px;
+    background-color: #eed3d3;
+    display: inline-block;
+}
+
+.social-networks a {
+    padding: 38.5px 25px 34px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.social-networks a:first-child {
+    padding: 38.5px 0;
+}
+
+.person-photo{
+    margin: 30px 10px 0 0;
+    height: 180px;
+    width: 170px;
+    background-color: #eed3d3;
+    display: inline-block;
+}
+
+.center-page-content {
+    padding: 0;
+    margin: 100px 0;
+    min-height: 280px;
+    width: 100%;
+    background-color: #eed3d3;
+}
+
+.tips-and-delivery {
+    padding: 110px 0 120px;
+    justify-content: center;
+}
+
+.tips-and-delivery-wrapper {
+    justify-content: center;
+    color: #ffffff;
+}
+
+.tips-and-delivery-wrapper h2 {
+    margin: 0;
+    text-transform: none;
+    font-size: 38px;
+}
+
+.tips-and-delivery-wrapper p {
+    margin: 30px 0 60px;
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.email input {
+    padding: 0 30px;
+    width: 400px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+}
+
+.email button {
+    margin: 0;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-left: 10px;
+    padding: 0 40px;
+    min-width: 100px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff3f40;
+}
+
+.contact-info {
+    padding-left: 8.8%;
+}
+
+.mail-text-name div input {
+    background-color: #e0e0e0;
+    padding: 0 30px;
+    width: 270px;
+    height: 52px;
+    border: none;
+    border-radius: 10px;
+}
+
+.mail-text-name div input:nth-of-type(2n) {
+    margin: 40px 0;
+}
+
+.mail-text-name div textarea {
+    background-color: #e0e0e0;
+    padding: 20px 30px;
+    width: 645px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+}
+
+.mail-text-name button {
+    margin: 40px 0;
+    position: relative;
+    left: -10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-left: 10px;
+    padding: 0;
+    width: 87.5%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff3f40;
+}
+
+.contact {
+    line-height: 1.7;
+    opacity: 0.9;
+    padding: 90px 0;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.contact h2, .contact p {
+    padding: 0 0 0 60px;
+    opacity: 0.7;
+}
+
+.contact h2 {
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.contact p {
+    margin-bottom: 20px;
+    font-style: normal;
+    font-size: 15px;
+}
+
+footer {
+    margin-top: 50px;
+    min-height: 60px;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.7;
+    opacity: 0.9;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+footer div:nth-of-type(1) {
+    margin: 40px 0 10px 150px;
+}
+
+footer div:nth-of-type(2) {
+    margin: 40px 150px 10px;
+}
+
+footer div p {
+    opacity: 0.7;
+}
+
+footer div a {
+    margin: 0 10px;
+}
+
+footer div a img {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.col-1 {width: 8.333333333333334%;}
+.col-2 {width: 16.666666666666668%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.333333333333336%;}
+.col-5 {width: 41.66666666666667%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.333333333333336%;}
+.col-8 {width: 66.66666666666667%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33333333333334%;}
+.col-10-5 {width: 87.44444444444445%;}
+.col-10-9 {width: 91.11111111111112%;}
+.col-11 {width: 91.66666666666667%;}
+.col-12 {width: 100%;}
